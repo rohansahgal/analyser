@@ -1,0 +1,7 @@
+dependencies {
+    compile project(":sentiment-analyser")
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springBootVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: springBootVersion
+    runtime group: 'com.h2database', name: 'h2', version: '1.4.192'
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'analyser'
+
+include 'io'
+include 'url-parser'
+include 'sentiment-analyser'
+include 'analyser-service'

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ning:async-http-client:1.9.39">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ning/async-http-client/1.9.39/1e55ed367bdfe9a602bb79840e85802846c15f4b/async-http-client-1.9.39.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ning/async-http-client/1.9.39/9cde2bd9883445e305a30932727df18db062b361/async-http-client-1.9.39-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

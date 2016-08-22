@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '1.2.5.RELEASE'
+        classpath group: 'org.unbroken-dome.gradle-plugins', name: 'gradle-testsets-plugin', version:'1.2.0'
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: "groovy"
+    apply plugin: 'idea'
+
+    apply plugin: 'org.unbroken-dome.test-sets'
+
+    group = 'com.trustflower.java'
+    version = '1.0.0'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    ext {
+        groovyVersion = '2.4.1'
+        junitVersion = '4.12'
+        commonsLang3Version = '3.4'
+        guavaVersion =  '18.0'
+        gsonVersion =  '2.6.1'
+        springBootVersion = '1.2.6.RELEASE'
+        mysqlConnectorVersion = '5.1.36'
+        hsqlDBVersion = '2.3.3'
+        spockVersion = '1.0-groovy-2.4'
+        hamcrestVersion = '1.3'
+        cglibVersion = '3.2.0'
+        objenesisVersion = '2.2'
+        bcryptVersion = '0.3m'
+        hibernateValidatorVersion = '5.2.2.Final'
+        tomcatEmbedElVersion = '8.0.26'
+        springSecurityOauth2Version = '2.0.7.RELEASE'
+        awsSdkVersion = '1.11.6'
+        commonsIOVersion = '2.4'
+        jetBrainsAnnotationsVersion = '15.0'
+        commonsCodecVersion = '1.10'
+        guavaRetryingVersion = '2.0.0'
+        twilioSdkVersion = '5.8.0'
+        springSecurityVersion = '4.0.3.RELEASE'
+        retrofitVersion = '2.0.0-beta4'
+        flywayVersion = '4.0'
+        elasticSearchVersion = '2.1.1'
+        libPhoneNumberVersion = '7.4.2'
+        googleDriveServicesVersion = 'v2-rev135-1.19.0'
+        googleHttpVersion = '1.19.0'
+        googleOauthVersion = '1.19.0'
+    }
+}

@@ -1,0 +1,14 @@
+dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyVersion
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: commonsLang3Version
+    compile group: 'com.google.guava', name: 'guava', version: guavaVersion
+    compile group: 'com.google.code.gson', name: 'gson', version: gsonVersion
+    compile group: 'javax.validation', name:'validation-api', version:'1.1.0.Final'
+    compile group: 'commons-io', name:'commons-io', version: commonsIOVersion
+    compile group: 'com.ning', name: 'async-http-client', version: '1.9.39'
+    compile 'org.apache.httpcomponents:httpclient:4.5.2'
+    compile 'org.apache.httpcomponents:fluent-hc:4.5.2'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: springBootVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springBootVersion
+
+}

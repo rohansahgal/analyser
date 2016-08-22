@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":io")
+    compile project(':url-parser')
+
+}
